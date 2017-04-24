@@ -1,0 +1,101 @@
+
+body {
+	background-color: #8a211d;
+}
+
+.container {
+	background-color: #e8e8e8;
+	box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.5);
+	width: 93%;
+	margin: 50px auto;
+}
+
+.container a {
+	text-decoration: none;
+	color: black;
+	position:relative;
+}
+
+.container a:hover {
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container a:active {
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	top: 2px;
+}
+
+header img {
+	width: 100px;
+	position: relative;
+	left: 80px;
+	top: -50px;
+	box-shadow:0px 0px 8px 5px rgba(0, 0, 0, 0.4);
+}
+
+header ul {
+	list-style: none;
+	display: inline-block;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	box-shadow:  0px -10px 8px -10px rgba(0, 0, 0, 0.2) inset, 0px 10px 8px -10px rgba(0, 0, 0, 0.2) inset, 0px -10px 8px -10px rgba(0, 0, 0, 0.2), 0px 10px 8px -10px rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	float: right;
+	margin: 70px 80px;
+}
+
+header ul li {
+	display: inline-block;
+	margin: 0 30px;
+	font-family: Lato; sans-serif;
+}
+
+.flash {
+	height:450px;
+	background: url(woman.jpg) 0% 80%;
+	background-size: 100%;
+	background-color: black; 
+	margin-top:-50px;
+}
+
+.flash p {
+	font-family: 'Josefin Sans'; sans-serif;
+	font-size: 48px;
+	text-align: right;
+}
+
+.flash p:nth-child(1) {
+	color: #8a211d;
+	padding: 150px 200px 0px 50px;
+}
+
+.flash p:nth-child(2) {
+	color: #a6ad3c;
+	padding: 0px 40px;
+}
+
+section div {
+	text-align: center;
+	font-family: 'Josefin Sans'; sans-serif;
+	}
+
+section div h1 {
+	font-size: 32px;
+	border-bottom: 1px black solid;
+	box-shadow:   0px 4px 4px -4px rgba(0, 0, 0, 0.5), 0px 0px 4px -4px rgba(0, 0, 0, 0.5) inset;
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+section div p {
+	padding: 0 50px;
+}
+
+footer {
+	color: black;
+	font-family: 'Playfair Display'; serif;
+	font-size: 14px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 1px;
+}
